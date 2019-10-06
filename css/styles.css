@@ -78,7 +78,6 @@ body {
     transform: translateY(100%);
 }
 
-
 .panel.open-active > *:first-child,
 .panel.open-active > *:last-child {
     transform: translateY(0);
@@ -96,4 +95,5 @@ body {
 
 .panel.open {
     font-size: 40px;
+    flex: 5;
 }
